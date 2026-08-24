@@ -53,19 +53,17 @@ function mostrarValores()
         let status = item.isPurchased ? 'comprado' : ''
         list.innerHTML += `
             <li class="${status}">
-                ${item.name}
+                <span>${item.name}</span>
 
-                <button onclick="marcarComoComprado('${item.name}')">
-                    ${item.isPurchased ? 'Desmarcar' : 'Comprado'}
-                </button>
+                <div class="item-buttons">
+                    <button onclick="removerItem('${item.name}')">Remover</button>
 
-                <button onclick="editarItem('${item.name}')">
-                    Editar
-                </button>
+                    <button onclick="editarItem('${item.name}')">Editar</button>
 
-                <button onclick="removerItem('${item.name}')">
-                    Remover
-                </button>
+                    <button onclick="marcarComoComprado('${item.name}')">
+                        ${item.isPurchased ? 'Desmarcar' : 'Comprado'}
+                    </button>
+                </div>
             </li>
         `
     }
