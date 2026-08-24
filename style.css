@@ -68,17 +68,6 @@ body {
     padding: 0;
 }
 
-#lista-compras li {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: var(--color-dark2);
-    padding: 0.8rem;
-    margin-bottom: 0.5rem;
-    border-radius: 1rem;
-}
-
 #lista-compras li button {
     border: none;
     padding: 0.5rem 0.8rem;

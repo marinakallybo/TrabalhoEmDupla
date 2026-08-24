@@ -1,10 +1,11 @@
-##LISTA DE COMPRAS
+# LISTA DE COMPRAS
 
 Aplicação web para gerenciar e organizar uma lista de compras.
 
 Projeto desenvolvido como atividade acadêmica.
 
-#Funcionalidades
+## Funcionalidades
+
 - Adicionar itens à lista
 - Remover itens
 - Marcar e desmarcar itens como comprados
@@ -14,13 +15,13 @@ Projeto desenvolvido como atividade acadêmica.
 - Salvar os dados no localStorage
 - Interface responsiva
 
-#Tecnologias
+## Tecnologias
 - HTML
 - CSS
 - JavaScript
 - Bootstrap
 
-#Razão da escolha do Framework/Biblioteca
+## Razão da escolha do Framework/Biblioteca
 
 A biblioteca do CSS Bootstrap foi escolhida pois oferece componentes e recursos de responsividade que ajudam no desenvolvimento da interface sem adicionar complexidade desnecessária ao JavaScript.
 
@@ -30,7 +31,7 @@ Essa escolha também contribuiu para alguns princípios de IHC:
 - Usabilidade: facilita a criação de uma interface simples.
 - Responsividade: auxilia na adaptação do projeto para diferentes tamanhos de tela.
 
-##Como executar
+## Como executar
 1. Clone este repositório.
 2. Abra a pasta do projeto.
 3. Abra o arquivo index.html no navegador.
