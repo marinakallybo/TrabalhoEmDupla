@@ -8,9 +8,10 @@
     <title>Lista de Compras</title>
 
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="container py-4">
 
     <h1>Lista de Compras</h1>
 
@@ -21,10 +22,11 @@
             <input
                 type="text"
                 id="input-name-item"
+                class="form-control"
                 placeholder="Digite o nome do item"
             >
 
-            <button onclick="novoItem()" id="btn-novo-item">
+            <button onclick="novoItem()" id="btn-novo-item" class="btn">
                 Adicionar
             </button>
 
