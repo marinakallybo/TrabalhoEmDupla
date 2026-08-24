@@ -1,9 +1,9 @@
 :root {
-    --color-dark: rgb(14, 14, 14);
+    --color-dark: rgb(25, 19, 23);
     --color-dark2: rgb(32, 32, 32);
     --color-dark3: rgb(22, 22, 22);
     --color-white: #fff;
-    --color-green: rgb(53, 87, 45);
+    --color-purple: rgb(98, 39, 116);
 }
 
 body {
@@ -43,7 +43,7 @@ body {
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 1rem;
-    background-color: var(--color-green);
+    background-color: var(--color-purple);
     cursor: pointer;
 }
 
