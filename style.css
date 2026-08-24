@@ -28,8 +28,8 @@ body {
 }
 
 #input-name-item {
-    width: 20rem;
-    padding: 1rem;
+    width: 15rem;
+    padding: 0.5rem 1rem;
     border: none;
     border-radius: 1rem;
     outline: none;
@@ -86,7 +86,7 @@ body {
     opacity: 0.5;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 350px) {
 
     .content--add-item {
         flex-wrap: wrap;
