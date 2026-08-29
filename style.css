@@ -31,7 +31,6 @@ body {
     width: 15rem;
     padding: 0.5rem 1rem;
     border: none;
-    border-radius: 1rem;
     outline: none;
 }
 
@@ -42,7 +41,6 @@ body {
 #btn-novo-item {
     padding: 0.8rem 1rem;
     border: none;
-    border-radius: 1rem;
     background-color: var(--color-purple);
     cursor: pointer;
 }
@@ -71,7 +69,6 @@ body {
 #lista-compras li button {
     border: none;
     padding: 0.5rem 0.8rem;
-    border-radius: 0.8rem;
     background-color: var(--color-dark3);
     color: var(--color-white);
     cursor: pointer;
@@ -111,7 +108,6 @@ body {
     background-color: var(--color-dark2);
     padding: 0.8rem;
     margin-bottom: 0.5rem;
-    border-radius: 1rem;
 }
 
 .item-buttons {
