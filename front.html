@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Aplicação de lista de compras simples e intuitiva para gerenciar itens, marcar produtos comprados e acompanhar pendências.">
 
     <title>Lista de Compras</title>
 
@@ -13,12 +15,13 @@
 
 <body class="container py-4">
 
-    <h1>Carrinho De Compras</h1>
+    <header>
+        <h1>Carrinho De Compras</h1>
+    </header>
 
-    <div class="content">
+    <main class="content">
 
-        <div class="content--add-item">
-
+        <section class="content--add-item">
             <input
                 type="text"
                 id="input-name-item"
@@ -26,30 +29,29 @@
                 placeholder="Digite o nome do item"
             >
 
-            <button onclick="novoItem()" id="btn-novo-item" class="btn">
+            <button id="btn-novo-item" class="btn" aria-label="Adicionar item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
-                <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
-                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
                 </svg>
             </button>
+        </section>
 
-        </div>
-
-        <div class="content--counter">
-
+        <section class="content--counter">
             <p>Total: <span id="contador-total">0</span></p>
             <p>Comprados: <span id="contador-comprados">0</span></p>
             <p>Pendentes: <span id="contador-pendentes">0</span></p>
+        </section>
 
-        </div>
-
-        <div class="content--body">
-
+        <section class="content--body">
             <ol id="lista-compras"></ol>
+        </section>
 
-        </div>
-
-    </div>
+    </main>
+    
+    <footer class="text-center mt-4">
+        <small>&copy; Lista de Compras - Todos os direitos reservados</small>
+    </footer>
 
     <script src="back.js"></script>
 
