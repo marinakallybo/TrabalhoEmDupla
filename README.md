@@ -12,6 +12,7 @@ Projeto desenvolvido como atividade acadêmica.
 - Editar itens cadastrados
 - Contar itens comprados e pendentes
 - Impedir o cadastro de itens vazios
+- Impedir clonagem de itens / Impedir edição do nome do item para um nome de um item já existente
 - Salvar os dados no localStorage
 - Interface responsiva
 
